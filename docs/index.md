@@ -1,5 +1,3 @@
-# MarkoWizard
-
 <p align="center">
   <img src="assets/banner.png" alt="MarkoWizard" width="640">
 </p>
