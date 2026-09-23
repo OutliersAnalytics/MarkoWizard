@@ -397,7 +397,7 @@ function errorCardHtml() {
 function getStartedCardHtml() {
   return `
     <div class="card elev-sm mw-placeholder">
-      <img src="assets/images/mascote-analise-de-dados.png" alt="" style="width:56px;height:56px;object-fit:contain" />
+      <img src="assets/images/mascote-markowitz.png" alt="" style="width:56px;height:56px;object-fit:contain" />
       <span class="card-kicker">Get started</span>
       <p class="card-body">Search for at least two tickers in the rail, then run the analysis to see the report.</p>
     </div>`;
@@ -1077,7 +1077,7 @@ function savedRunsSectionHtml() {
       <section id="saved">
         ${header}
         <div class="card elev-sm mw-placeholder">
-          <img src="assets/images/mascote-analise-de-dados.png" alt="" style="width:48px;height:48px;object-fit:contain" />
+          <img src="assets/images/mascote-dinheiro.png" alt="" style="width:48px;height:48px;object-fit:contain" />
           <p class="card-body">No saved runs yet — run an analysis, then save it to come back to it later.</p>
         </div>
       </section>`;
