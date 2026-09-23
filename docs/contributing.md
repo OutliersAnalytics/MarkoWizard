@@ -27,8 +27,8 @@ Please make sure both pass before opening a pull request.
 ## Scope
 
 `markowizard/` is the installable library — keep it dependency-light and free of
-web/UI concerns. The web application under `backend/` and `frontend/` is not part
-of the published package; run it with:
+web/UI concerns. The web application under `backend/` and `frontend/` is not
+part of the published package; run it with:
 
 ```bash
 uv run --with-requirements backend/requirements.txt uvicorn backend.main:app --port 8000
@@ -36,16 +36,16 @@ uv run --with-requirements backend/requirements.txt uvicorn backend.main:app --p
 
 ## Building the docs
 
-The docs site (https://outliersanalytics.github.io/MarkoWizard/) is built with
-[MkDocs Material](https://squidfunk.github.io/mkdocs-material/) and
-[mkdocstrings](https://mkdocstrings.github.io/) from `docs/` + docstrings in
-`markowizard/`. Preview locally with:
+This site is built with [MkDocs Material](https://squidfunk.github.io/mkdocs-material/)
+and [mkdocstrings](https://mkdocstrings.github.io/) (API pages are generated from the
+library's docstrings). To preview locally:
 
 ```bash
 uv run --group docs mkdocs serve
 ```
 
-It deploys automatically on every push to `main` (see `.github/workflows/docs.yml`).
+It publishes automatically to GitHub Pages on every push to `main` that touches
+`docs/`, `mkdocs.yml`, or `markowizard/` (see `.github/workflows/docs.yml`).
 
 ## Pull requests
 

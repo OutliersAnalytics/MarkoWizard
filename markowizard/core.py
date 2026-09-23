@@ -156,7 +156,7 @@ class MarkowitzOptimizer:
         Parameters
         ----------
         risk_free_rate : float
-        Risk-free rate (e.g., monthly rate). Should be in decimal
+            Risk-free rate (e.g., monthly rate). Should be in decimal
             form (e.g., 0.005 for 0.5% a.m.).
 
         Returns
